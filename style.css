@@ -172,23 +172,30 @@ main {
     font-size: 3rem;
   }
   .player{
-    padding: 2rem 0;
+    padding: 4rem 0;
   }
   .btn--new {
-    top: 15rem; 
+    top: 1rem; 
   }
   .btn--roll {
-    top: 33.3rem;
+    top: 46.3rem;
   }
   .btn--hold {
-    top: 39.1rem;
+    top: 53.1rem;
+  }
+  .btn::first-letter {
+    margin-right: 0rem;
   }
   .dice{
-    top: 21.5rem;
+    top: 34.5rem;
+  }
+  .current{
+    width: auto;
+    transform: translateY(-22rem);
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 470px) {
   main{
     height: 100vh;
   }
@@ -199,21 +206,19 @@ main {
     font-size: 2.5rem;
   }
   .btn--new {
-    top: 17rem; 
+    top: 1rem; 
   }
   .btn--roll {
-    top: 38.3rem;
+    top: 55.3rem;
   }
   .btn--hold {
-    top: 44.1rem;
-  }
-  .btn::first-letter {
-    margin-right: 0rem;
+    top: 62.1rem;
   }
   .dice{
-    top: 25.5rem;
+    top: 45.5rem;
+    height: 8rem;
   }
   .current{
-    width: auto;
+    transform: translateY(-27rem);
   }
 }
